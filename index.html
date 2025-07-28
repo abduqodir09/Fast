@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.max {
+    width: 256px;
+    height: 36px;
+    border-radius: 12px;
+    background: #FC004A;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 345px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.look {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* .container {
+    width: 876px;
+    height: 293.66px;
+    margin: 0 auto;
+    display: flex;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-image: url('./Link\ →\ m69XYpPxUafYX7FG9FYmo8MBVJYWJyh9XoVGH371.jpg.png');
+    margin-top: 134px;
+} */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px !important;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 30px;
+}
+
+.card{
+    width: 300px;
+    height: 460px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #ccc;
+    position: relative;
+}
+
+.card-img{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-name{
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.card-price{
+    color: #FC004A;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.card-button{
+    width: 41px;
+    height: 42px;
+    background-color: #FC004A;
+    border: none;
+    border-radius: 10px;
+    margin-left: 230px;
+}
+
+.card-button-img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+@media(max-width: 1032px){
+    .card{
+        width: 270px;
+    }
+
+    .card-button{
+        margin-left: 210px;
+    }
+}
+
+@media(max-width: 625px){
+    nav a{
+        display: none;
+    }
+
+    .container img{
+        width: 500px;
+
+    }
+}
+
+@media(max-width: 527px){
+    .container img{
+        width: 300px;
+    }
+}
+</style>
+<body>
+    <header>
+        <div class="look">
+            <img src="./main_logo.svg fill.png" alt="">
+            <div class="max">
+                <img src="./location.svg (2).png" alt="">
+                <span>Укажите свой адрес</span>
+            </div>
+        </div>
+        <nav>
+            <a href="#">О нас</a>
+            <a href="#">Меню</a>
+            <a href="#">Акции</a>
+            <a href="#">Филиалы</a>
+            <a href="#">Контакты</a>
+        </nav>
+    </header>
+    <div class="container">
+        <img src="./Link → m69XYpPxUafYX7FG9FYmo8MBVJYWJyh9XoVGH371.jpg.png" alt="">
+    </div>
+    <main>
+        <div class="cards">
+            <div class="card">
+                <img class="card-img" src="./set.png" alt="">
+                <h3 class="card-name">Qiyqiriq сет</h3>
+                <b class="card-price">45 000</b> <br>
+                <button class="card-button"><img class="card-button-img" src="./Frame.png" alt=""></button>
+            </div>
+            <div class="card">
+                <img class="card-img" src="./set.png" alt="">
+                <h3 class="card-name">Qiyqiriq сет</h3>
+                <b class="card-price">45 000</b> <br>
+                <button class="card-button"><img class="card-button-img" src="./Frame.png" alt=""></button>
+            </div>
+            <div class="card">
+                <img class="card-img" src="./set.png" alt="">
+                <h3 class="card-name">Qiyqiriq сет</h3>
+                <b class="card-price">45 000</b> <br>
+                <button class="card-button"><img class="card-button-img" src="./Frame.png" alt=""></button>
+            </div>
+            <div class="card">
+                <img class="card-img" src="./set.png" alt="">
+                <h3 class="card-name">Qiyqiriq сет</h3>
+                <b class="card-price">45 000</b> <br>
+                <button class="card-button"><img class="card-button-img" src="./Frame.png" alt=""></button>
+            </div>
+            <div class="card">
+                <img class="card-img" src="./set.png" alt="">
+                <h3 class="card-name">Qiyqiriq сет</h3>
+                <b class="card-price">45 000</b> <br>
+                <button class="card-button"><img class="card-button-img" src="./Frame.png" alt=""></button>
+            </div>
+            <div class="card">
+                <img class="card-img" src="./set.png" alt="">
+                <h3 class="card-name">Qiyqiriq сет</h3>
+                <b class="card-price">45 000</b> <br>
+                <button class="card-button"><img class="card-button-img" src="./Frame.png" alt=""></button>
+            </div>
+            <div class="card">
+                <img class="card-img" src="./set.png" alt="">
+                <h3 class="card-name">Qiyqiriq сет</h3>
+                <b class="card-price">45 000</b> <br>
+                <button class="card-button"><img class="card-button-img" src="./Frame.png" alt=""></button>
+            </div>
+            <div class="card">
+                <img class="card-img" src="./set.png" alt="">
+                <h3 class="card-name">Qiyqiriq сет</h3>
+                <b class="card-price">45 000</b> <br>
+                <button class="card-button"><img class="card-button-img" src="./Frame.png" alt=""></button>
+            </div>
+            <div class="card">
+                <img class="card-img" src="./set.png" alt="">
+                <h3 class="card-name">Qiyqiriq сет</h3>
+                <b class="card-price">45 000</b> <br>
+                <button class="card-button"><img class="card-button-img" src="./Frame.png" alt=""></button>
+            </div>
+            <div class="card">
+                <img class="card-img" src="./set.png" alt="">
+                <h3 class="card-name">Qiyqiriq сет</h3>
+                <b class="card-price">45 000</b> <br>
+                <button class="card-button"><img class="card-button-img" src="./Frame.png" alt=""></button>
+            </div>
+            <div class="card">
+                <img class="card-img" src="./set.png" alt="">
+                <h3 class="card-name">Qiyqiriq сет</h3>
+                <b class="card-price">45 000</b> <br>
+                <button class="card-button"><img class="card-button-img" src="./Frame.png" alt=""></button>
+            </div>
+            <div class="card">
+                <img class="card-img" src="./set.png" alt="">
+                <h3 class="card-name">Qiyqiriq сет</h3>
+                <b class="card-price">45 000</b> <br>
+                <button class="card-button"><img class="card-button-img" src="./Frame.png" alt=""></button>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
